@@ -28,7 +28,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // --- Serve frontend static files ---
-app.use(express.static(path.join(__dirname, '..', 'frontend')));
+app.use(express.static(path.join(__dirname, '..', '.frontened')));
 
 // ==========================================================================
 //  API ROUTES — Supabase-backed versions of the function endpoints
@@ -528,7 +528,7 @@ app.get('/api/settings', (req, res) => {
 // --------------------------------------------------------------------------
 app.get('*', (req, res) => {
   if (!req.path.startsWith('/api/')) {
-    res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', '.frontened', 'index.html'));
   }
 });
 
