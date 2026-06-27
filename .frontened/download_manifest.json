@@ -1,0 +1,96 @@
+{
+  "downloaded": [
+    {
+      "url": "https://islamic-ads-earn.com/__l5e/events.js",
+      "path": "/home/user/project/islamic-ads-earn/__l5e/events.js",
+      "size": 44148
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/Header-DgME0PqW.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/Header-DgME0PqW.js",
+      "size": 1214
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/createLucideIcon-Bjbq1aAs.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/createLucideIcon-Bjbq1aAs.js",
+      "size": 1202
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/index-CQnWUjsj.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/index-CQnWUjsj.js",
+      "size": 331097
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/index-CYfkGe_9.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/index-CYfkGe_9.js",
+      "size": 6233
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/logo-CqYZQfoZ.png",
+      "path": "/home/user/project/islamic-ads-earn/assets/logo-CqYZQfoZ.png",
+      "size": 645598
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/logo-D5oI_FYM.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/logo-D5oI_FYM.js",
+      "size": 52
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/shield-DNyWfJ6D.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/shield-DNyWfJ6D.js",
+      "size": 279
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/styles-D7v021ue.css",
+      "path": "/home/user/project/islamic-ads-earn/assets/styles-D7v021ue.css",
+      "size": 100126
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/trending-up-Bxv3dDfj.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/trending-up-Bxv3dDfj.js",
+      "size": 187
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/users-D3gn5cze.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/users-D3gn5cze.js",
+      "size": 318
+    },
+    {
+      "url": "https://islamic-ads-earn.com/assets/zap-BR9nxjjS.js",
+      "path": "/home/user/project/islamic-ads-earn/assets/zap-BR9nxjjS.js",
+      "size": 274
+    },
+    {
+      "url": "https://islamic-ads-earn.com/~flock.js",
+      "path": "/home/user/project/islamic-ads-earn/~flock.js",
+      "size": 21296
+    },
+    {
+      "url": "https://islamic-ads-earn.com/",
+      "path": "/home/user/project/islamic-ads-earn/index.html",
+      "size": 27816
+    },
+    {
+      "url": "https://islamic-ads-earn.com/login",
+      "path": "/home/user/project/islamic-ads-earn/login.html",
+      "size": 7643
+    },
+    {
+      "url": "https://islamic-ads-earn.com/register",
+      "path": "/home/user/project/islamic-ads-earn/register.html",
+      "size": 8956
+    }
+  ],
+  "failed": [],
+  "external_urls": [
+    "https://fonts.googleapis.com",
+    "https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&amp;display=swap",
+    "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/b35ed484-307f-44b8-98d7-9b5d95a11156"
+  ],
+  "extensions": {
+    ".js": 11,
+    ".png": 1,
+    ".css": 1,
+    ".html": 3
+  }
+}
