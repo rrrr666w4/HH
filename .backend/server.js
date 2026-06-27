@@ -121,6 +121,49 @@ app.post('/api/functions/register-user', async (req, res) => {
 });
 
 // --------------------------------------------------------------------------
+// POST /api/functions/login-user
+app.post('/api/functions/login-user', async (req, res) => {
+  try {
+    const { username, password } = req.body;
+    
+    if (!username || !password) {
+      return res.status(400).json({ error: 'Username and password required' });
+    }
+
+    // Find user by name
+    const { data: user, error: findErr } = await supabase
+      .from('users')
+      .select('*')
+      .eq('name', username)
+      .maybeSingle();
+
+    if (findErr) {
+      return res.status(500).json({ error: findErr.message });
+    }
+
+    if (!user) {
+      return res.status(401).json({ error: 'Invalid username or password' });
+    }
+
+    // Check if banned
+    if (user.is_banned) {
+      return res.status(403).json({ error: user.ban_reason || 'Account is banned' });
+    }
+
+    // Verify password (simple check)
+    if (user.password !== password) {
+      return res.status(401).json({ error: 'Invalid username or password' });
+    }
+
+    // Return user data (excluding password)
+    const { password: _, ...userData } = user;
+    res.json({ data: userData });
+
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+// --------------------------------------------------------------------------
 //  POST /api/functions/claim-daily-task
 //  Claim daily ad-watching earnings
 // --------------------------------------------------------------------------
