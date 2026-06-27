@@ -1,0 +1,15 @@
+{
+  "name": "islamic-ads-earn-supabase",
+  "version": "1.0.0",
+  "description": "Islamic Ads Earn — Supabase-connected version with Express backend",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5"
+  }
+}
